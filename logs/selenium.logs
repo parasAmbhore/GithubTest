@@ -764,6 +764,7 @@
 21:00:48,698 DEBUG org.apache.http.wire<strong>{1}</strong>:72 - http-outgoing-324 >> "Host: localhost:38377[\r][\n]"
 21:00:48,698 DEBUG org.apache.http.wire<strong>{1}</strong>:72 - http-outgoing-324 >> "Connection: Keep-Alive[\r][\n]"
 21:00:48,698 DEBUG org.apache.http.wire<strong>{1}</strong>:72 - http-outgoing-324 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_151)[\r][\n]"
+
 21:00:48,698 DEBUG org.apache.http.wire<strong>{1}</strong>:72 - http-outgoing-324 >> "Accept-Encoding: gzip,deflate[\r][\n]"
 21:00:48,698 DEBUG org.apache.http.wire<strong>{1}</strong>:72 - http-outgoing-324 >> "[\r][\n]"
 21:00:48,698 DEBUG org.apache.http.wire<strong>{1}</strong>:86 - http-outgoing-324 >> "{"id":"0.8257874025793452-3"}"
