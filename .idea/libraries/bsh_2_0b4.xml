@@ -1,0 +1,32 @@
+<component name="libraryTable">
+  <library name="bsh-2.0b4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Libs/bsh-2.0b4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libs/cglib-nodep-2.1_3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libs/commons-codec-1.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libs/commons-exec-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libs/commons-io-2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libs/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libs/gson-2.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libs/guava-19.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libs/hamcrest-core-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libs/hamcrest-library-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libs/httpclient-4.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libs/httpcore-4.4.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libs/httpmime-4.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libs/java-client-3.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libs/jcommander-1.48.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libs/jna-4.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libs/jna-platform-4.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libs/junit-4.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libs/netty-3.5.7.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libs/phantomjsdriver-1.2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/Libs/java-client-3.4.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/Libs/java-client-3.4.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

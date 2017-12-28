@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="GithHub" verbose="1" parallel="tests" >
+    <test name="GithubChromeTest" >
+        <parameter name="BrowserName" value="chrome"/>
+        <classes>
+            <class name="tests.LoginTest"/>
+            <class name="tests.CreateGistTest"/>
+            <class name="tests.CreateRepositoryTest"/>
+        </classes>
+    </test>
+</suite>
+
+
+

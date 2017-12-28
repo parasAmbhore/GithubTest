@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="GithHub" duration-ms="244307" started-at="2017-12-28T15:27:48Z" finished-at="2017-12-28T15:31:52Z">
+    <groups>
+    </groups>
+    <test name="GithubChromeTest" duration-ms="244307" started-at="2017-12-28T15:27:48Z" finished-at="2017-12-28T15:31:52Z">
+      <class name="tests.CreateRepositoryTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:tests.CreateRepositoryTest@12cbfa]" name="initialize" is-config="true" duration-ms="1" started-at="2017-12-28T21:00:29Z" finished-at="2017-12-28T21:00:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="dCreateRepositoryButtonDisabled()[pri:0, instance:tests.CreateRepositoryTest@12cbfa]" name="dCreateRepositoryButtonDisabled" duration-ms="4465" started-at="2017-12-28T21:00:29Z" finished-at="2017-12-28T21:00:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dCreateRepositoryButtonDisabled -->
+        <test-method status="PASS" signature="tracksFailedCases(org.testng.ITestResult)[pri:0, instance:tests.CreateRepositoryTest@12cbfa]" name="tracksFailedCases" is-config="true" duration-ms="977" started-at="2017-12-28T21:00:33Z" finished-at="2017-12-28T21:00:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dCreateRepositoryButtonDisabled status=SUCCESS method=CreateRepositoryTest.dCreateRepositoryButtonDisabled()[pri:0, instance:tests.CreateRepositoryTest@12cbfa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tracksFailedCases -->
+        <test-method status="PASS" signature="eCreateRepositoryTest(java.lang.String, java.lang.String)[pri:0, instance:tests.CreateRepositoryTest@12cbfa]" name="eCreateRepositoryTest" duration-ms="2977" started-at="2017-12-28T21:00:42Z" data-provider="getRepoData" depends-on-methods="tests.CreateRepositoryTest.dCreateRepositoryButtonDisabled" finished-at="2017-12-28T21:00:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hello]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test Repo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eCreateRepositoryTest -->
+        <test-method status="PASS" signature="tracksFailedCases(org.testng.ITestResult)[pri:0, instance:tests.CreateRepositoryTest@12cbfa]" name="tracksFailedCases" is-config="true" duration-ms="1025" started-at="2017-12-28T21:00:45Z" finished-at="2017-12-28T21:00:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=eCreateRepositoryTest status=SUCCESS method=CreateRepositoryTest.eCreateRepositoryTest(java.lang.String, java.lang.String)[pri:0, instance:tests.CreateRepositoryTest@12cbfa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tracksFailedCases -->
+        <test-method status="PASS" signature="eCreateRepositoryTest(java.lang.String, java.lang.String)[pri:0, instance:tests.CreateRepositoryTest@12cbfa]" name="eCreateRepositoryTest" duration-ms="64239" started-at="2017-12-28T21:00:46Z" data-provider="getRepoData" depends-on-methods="tests.CreateRepositoryTest.dCreateRepositoryButtonDisabled" finished-at="2017-12-28T21:01:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[125]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test Repo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eCreateRepositoryTest -->
+        <test-method status="PASS" signature="tracksFailedCases(org.testng.ITestResult)[pri:0, instance:tests.CreateRepositoryTest@12cbfa]" name="tracksFailedCases" is-config="true" duration-ms="1897" started-at="2017-12-28T21:01:50Z" finished-at="2017-12-28T21:01:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=eCreateRepositoryTest status=SUCCESS method=CreateRepositoryTest.eCreateRepositoryTest(java.lang.String, java.lang.String)[pri:0, instance:tests.CreateRepositoryTest@12cbfa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tracksFailedCases -->
+      </class> <!-- tests.CreateRepositoryTest -->
+      <class name="tests.LoginTest">
+        <test-method status="PASS" signature="defaultSignin(java.lang.String)[pri:0, instance:tests.LoginTest@1adae5d]" name="defaultSignin" is-config="true" duration-ms="18930" started-at="2017-12-28T20:57:48Z" finished-at="2017-12-28T20:58:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defaultSignin -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:tests.LoginTest@1adae5d]" name="initialize" is-config="true" duration-ms="8" started-at="2017-12-28T20:58:07Z" finished-at="2017-12-28T20:58:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="aLoginTest(java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest@1adae5d]" name="aLoginTest" duration-ms="7916" started-at="2017-12-28T20:58:07Z" data-provider="loginData" finished-at="2017-12-28T20:58:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[paras-ambh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demopassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aLoginTest -->
+        <test-method status="PASS" signature="tracksFailedCases(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@1adae5d]" name="tracksFailedCases" is-config="true" duration-ms="829" started-at="2017-12-28T20:58:15Z" finished-at="2017-12-28T20:58:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=aLoginTest status=SUCCESS method=LoginTest.aLoginTest(java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest@1adae5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tracksFailedCases -->
+        <test-method status="PASS" signature="aLoginTest(java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest@1adae5d]" name="aLoginTest" duration-ms="126333" started-at="2017-12-28T20:58:16Z" data-provider="loginData" finished-at="2017-12-28T21:00:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[paras-ambhore]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demopassword1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aLoginTest -->
+        <test-method status="PASS" signature="tracksFailedCases(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@1adae5d]" name="tracksFailedCases" is-config="true" duration-ms="1783" started-at="2017-12-28T21:00:22Z" finished-at="2017-12-28T21:00:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=aLoginTest status=SUCCESS method=LoginTest.aLoginTest(java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest@1adae5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tracksFailedCases -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.CreateGistTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:tests.CreateGistTest@17f6480]" name="initialize" is-config="true" duration-ms="1" started-at="2017-12-28T21:00:24Z" finished-at="2017-12-28T21:00:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="bCreatePublicGistButtonDisabled()[pri:0, instance:tests.CreateGistTest@17f6480]" name="bCreatePublicGistButtonDisabled" duration-ms="3978" started-at="2017-12-28T21:00:24Z" finished-at="2017-12-28T21:00:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bCreatePublicGistButtonDisabled -->
+        <test-method status="PASS" signature="tracksFailedCases(org.testng.ITestResult)[pri:0, instance:tests.CreateGistTest@17f6480]" name="tracksFailedCases" is-config="true" duration-ms="948" started-at="2017-12-28T21:00:28Z" finished-at="2017-12-28T21:00:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=bCreatePublicGistButtonDisabled status=SUCCESS method=CreateGistTest.bCreatePublicGistButtonDisabled()[pri:0, instance:tests.CreateGistTest@17f6480] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tracksFailedCases -->
+        <test-method status="PASS" signature="cCreatePublicGistTest()[pri:0, instance:tests.CreateGistTest@17f6480]" name="cCreatePublicGistTest" duration-ms="6937" started-at="2017-12-28T21:00:34Z" depends-on-methods="tests.CreateGistTest.bCreatePublicGistButtonDisabled" finished-at="2017-12-28T21:00:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cCreatePublicGistTest -->
+        <test-method status="PASS" signature="tracksFailedCases(org.testng.ITestResult)[pri:0, instance:tests.CreateGistTest@17f6480]" name="tracksFailedCases" is-config="true" duration-ms="953" started-at="2017-12-28T21:00:41Z" finished-at="2017-12-28T21:00:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cCreatePublicGistTest status=SUCCESS method=CreateGistTest.cCreatePublicGistTest()[pri:0, instance:tests.CreateGistTest@17f6480] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tracksFailedCases -->
+      </class> <!-- tests.CreateGistTest -->
+    </test> <!-- GithubChromeTest -->
+  </suite> <!-- GithHub -->
+</testng-results>

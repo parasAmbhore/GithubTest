@@ -1,0 +1,43 @@
+28/12/2017 20:58:00 Logger Setting Implicit wait as 60 secs
+28/12/2017 20:58:07 Logger Explicit wait set to 90 secs
+28/12/2017 20:58:07 Logger Test case executing : aLoginTest
+28/12/2017 20:58:10 Logger Getting menu
+28/12/2017 20:58:11 Logger user signed out
+28/12/2017 20:58:13 Logger login failed
+28/12/2017 20:58:15 Logger Test case passed
+28/12/2017 20:58:16 Logger Test case executing : aLoginTest
+28/12/2017 21:00:22 Logger User successfully logged in
+28/12/2017 21:00:22 Logger Test case passed
+28/12/2017 21:00:24 Logger Explicit wait set to 90 secs
+28/12/2017 21:00:24 Logger Test case executing: bCreatePublicGistButtonDisabled
+28/12/2017 21:00:24 Logger Menu bar found,clicking on it
+28/12/2017 21:00:28 Logger Created gist menu is opened
+28/12/2017 21:00:28 Logger Create gist button is disabled
+28/12/2017 21:00:28 Logger Test case passed
+28/12/2017 21:00:29 Logger Explicit wait set to 90 secs
+28/12/2017 21:00:29 Logger Test case executing: dCreateRepositoryButtonDisabled
+28/12/2017 21:00:33 Logger Test case passed
+28/12/2017 21:00:34 Logger Test case executing: cCreatePublicGistTest
+28/12/2017 21:00:34 Logger Menu bar found,clicking on it
+28/12/2017 21:00:35 Logger Created gist menu is opened
+28/12/2017 21:00:35 Logger Creating new gist with name : TestGist
+28/12/2017 21:00:41 Logger create gist button clicked
+28/12/2017 21:00:41 Logger gist created : https://gist.github.com/paras-ambhore/9ba5354b031b3f1002bbf0fd60f08972
+28/12/2017 21:00:41 Logger Test case passed
+28/12/2017 21:00:42 Logger Test case executing: eCreateRepositoryTest
+28/12/2017 21:00:42 Logger Menu is opened
+28/12/2017 21:00:43 Logger Create new repository page is opened
+28/12/2017 21:00:43 Logger Repository name given : Hello
+28/12/2017 21:00:44 Logger Repository description given is : Test Repo
+28/12/2017 21:00:44 Logger Create new repo button clicked
+28/12/2017 21:00:44 Logger Repo creation failed.Repo with name already exists
+28/12/2017 21:00:45 Logger Test case passed
+28/12/2017 21:00:46 Logger Test case executing: eCreateRepositoryTest
+28/12/2017 21:00:46 Logger Menu is opened
+28/12/2017 21:00:47 Logger Create new repository page is opened
+28/12/2017 21:00:47 Logger Repository name given : 125
+28/12/2017 21:00:48 Logger Repository description given is : Test Repo
+28/12/2017 21:00:50 Logger Create new repo button clicked
+28/12/2017 21:01:50 Logger Repo is created
+28/12/2017 21:01:50 Logger Repo link : https://github.com/paras-ambhore/125.git
+28/12/2017 21:01:50 Logger Test case passed

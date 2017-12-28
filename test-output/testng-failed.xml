@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [GithHub]" parallel="tests">
+  <parameter name="BrowserName" value="chrome"/>
+  <test name="GithubChromeTest(failed)" parallel="tests">
+    <parameter name="BrowserName" value="chrome"/>
+    <classes>
+      <class name="tests.CreateGistTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="tracksFailedCases"/>
+        </methods>
+      </class> <!-- tests.CreateGistTest -->
+      <class name="tests.CreateRepositoryTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="tracksFailedCases"/>
+        </methods>
+      </class> <!-- tests.CreateRepositoryTest -->
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="aLoginTest" invocation-numbers="1"/>
+          <include name="defaultSignin"/>
+          <include name="initialize"/>
+          <include name="tracksFailedCases"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+    </classes>
+  </test> <!-- GithubChromeTest(failed) -->
+</suite> <!-- Failed suite [GithHub] -->
